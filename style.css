@@ -1,4 +1,5 @@
 body{
+    display: flex;
     margin: 0;
 }
 
@@ -38,4 +39,47 @@ body{
     width: 450px;
     text-align: center;
     color: rgba(255,255,255, .8);
+}
+
+.con-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color:rgb(224, 210, 210);
+    width: 1000px;
+}
+
+.conT{
+    margin-left: 50px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 240px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+.form-row{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 50px;
+}
+
+.field label{
+    display: block;
+}
+
+#create-btn{
+    height: 50px;
+    width: 155px;
+    margin-left: 50px;
+    border-radius: 5px;
+    border: transparent;
+    color: white;
+    background-color: #596D48;
 }
